@@ -1,7 +1,6 @@
 console.log("******This is Descending Order***************");
 
-var integers = [13, 25, 6, 3, 11, 2, 18, 
-7, 21, 1, 29, 20, 12, 8];
+var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 
 var descending = integers.sort(function(a, b){
 	return b-a
@@ -12,8 +11,6 @@ console.log(descending);
 
 console.log("******This is Remove any integers greater than 19.***************");
 
-var integers = [13, 25, 6, 3, 11, 2, 18, 7, 
-				21, 1, 29, 20, 12, 8];
 var greaterthan19 = integers.filter(function(x) {
     return x > 19 ;
 });
